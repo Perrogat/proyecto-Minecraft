@@ -6,9 +6,13 @@
     text-align: center; 
 }
 
-#logo_de_minecraft{
-    width: 300px;
-    height: 50px;
+body{
+    background-color: beige;
+}
+
+#logo_de_mc{
+    width: 100%;
+    height: 150px;
 }
   
 nav{
@@ -26,8 +30,8 @@ nav a{
 }
 
 .tarjeta img{
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .tarjeta{
@@ -35,11 +39,11 @@ nav a{
     display: inline-block;
     margin-right: 30px;
     text-align: center;
-    border: 1px solid rgb(55, 54, 54);
+    border: 1px solid rgb(245, 245, 220);
 }
 
 .nombre_tarjeta{
-    background-color: rgb(207, 54, 54);
+    background-color: rgb(92, 73, 47);
 }
 
 .nombre_tarjeta p{
