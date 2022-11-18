@@ -7,24 +7,35 @@
 }
 
 #logo_de_minecraft{
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 50px;
 }
   
 nav{
     text-align: center;
+    
 }
+
+nav a{
+    margin: 15px;
+}
+
   
 #logodos{
     text-align: center;
 }
 
+.tarjeta img{
+    width: 100%;
+    height: 100%;
+}
+
 .tarjeta{
     width: 90px;
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 30px;
     text-align: center;
-    border: 1px solid rgb(58, 56, 56);
+    border: 1px solid rgb(55, 54, 54);
 }
 
 .nombre_tarjeta{
@@ -34,4 +45,8 @@ nav{
 .nombre_tarjeta p{
     color: white;
     margin-bottom: 0px;
+}
+
+.contenedor{
+    text-align: center;
 }
